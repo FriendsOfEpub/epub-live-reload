@@ -36,9 +36,11 @@ The goal of this project is to bring live reload (or even hot reload) to the ebo
 ## TODO ##
 
  - Add support for css changes 
+ - Remove hard coded path
+ - Add remote support (wifi on the same network)
  - Find a way to get readium files path
  - Use Reading System Object
  - Remove gulp dependency 
  - Rebuild epub3 after change
- -  Add build task to remove the lib
+ - Add build task to remove the lib
 
