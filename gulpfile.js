@@ -16,11 +16,7 @@ gulp.task('init', function(){
     .pipe(gulp.dest('./epub'));;
 });
 gulp.task('serve', function(){
-    exec('node node_modules/http-server/bin/http-server ',function(err, out, code){
-            process.stderr.write(err);
-            process.stdout.write(out);
-           
-        });
+   
     require('./libs/server.js');
 });
 

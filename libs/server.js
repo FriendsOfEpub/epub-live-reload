@@ -11,6 +11,11 @@ gulp.watch('./epub/**/*.xhtml').on('change', function (file) {
             }
         );
 }); 
+var server  = require('./httpS.js');
+server.run();
+
+//To get httpAddreses
+setTimeout(server.getAddresses, 5000);
 
 var socketio = require('socket.io');
 var fs = require("fs");
@@ -49,6 +54,7 @@ io.on('connection', function (socket) {
             process.stdout.write(out);
             socket.emit('file_updated', {'RS': data.RS});
         });
+
         
         console.log('contneu recu');
         console.log(data);

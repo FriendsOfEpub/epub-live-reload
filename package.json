@@ -23,13 +23,12 @@
   },
   "homepage": "https://github.com/FriendsOfEpub/epub-live-reload#readme",
   "dependencies": {
+    "event-emitter": "^0.3.4",
     "exec": "^0.2.1",
     "gulp": "^3.9.1",
     "gulp-insert-lines": "0.0.4",
     "http-server": "^0.9.0",
-    "socket.io": "^1.4.5"
-  },
-  "devDependencies": {
+    "socket.io": "^1.4.5",
     "socket.io-client": "^1.4.5"
   }
 }
