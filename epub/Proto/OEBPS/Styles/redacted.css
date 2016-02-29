@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "redacted";
+	src: url('../Fonts/redacted-Regular.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "redacted-script";
+	src: url('../Fonts/redacted-script-light.ttf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "redacted-script";
+	src: url('../Fonts/redacted-script-regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "redacted-script";
+	src: url('../Fonts/redacted-script-bold.ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "icon-works";
+	src: url('../Fonts/icon-works-webfont.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "redacted-script", Georgia, serif;
+}
+
+h1, h2, p.auteur, .drop-cap {
+	font-family: "redacted", Arial, sans-serif;
+}
+
+.icon {
+	font-family: "icon-works";
+}

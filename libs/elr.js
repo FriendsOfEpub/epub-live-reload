@@ -1,3 +1,6 @@
+var ReadingSystem = navigator.epubReadingSystem;
+console.log(ReadingSystem);
+
 //needs config
 var socketHotReload = io.connect('http://127.0.0.1:3002');
 socketHotReload.on('file_updated', function(data){	

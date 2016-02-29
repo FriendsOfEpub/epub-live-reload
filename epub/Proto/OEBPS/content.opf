@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:b4c952fb-bef2-4b18-82e1-f8518a619ea6</dc:identifier>
+    <dc:title>Pronto</dc:title>
+    <dc:creator opf:file-as="Panoz, Jiminy" opf:role="aut">Jiminy Panoz</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:date opf:event="modification">2015-05-31</dc:date>
+    <meta content="0.8.6" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Text/cover.xhtml" id="cover.xhtml" media-type="application/xhtml+xml" />
+    <item href="Styles/styles.css" id="styles.css" media-type="text/css" />
+    <item href="Text/nav.xhtml" id="nav.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/icon-ref.xhtml" id="icon-ref.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Example-01.xhtml" id="Example-01.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Example-02.xhtml" id="Example-02.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Example-03.xhtml" id="Example-03.xhtml" media-type="application/xhtml+xml" />
+    <item href="Styles/queries.css" id="queries.css" media-type="text/css" />
+    <item href="Fonts/redacted-regular.ttf" id="redacted-regular.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/redacted-script-bold.ttf" id="redacted-script-bold.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/redacted-script-light.ttf" id="redacted-script-light.ttf" media-type="application/x-font-ttf" />
+    <item href="Fonts/redacted-script-regular.ttf" id="redacted-script-regular.ttf" media-type="application/x-font-ttf" />
+    <item href="Text/Example-04.xhtml" id="Example-04.xhtml" media-type="application/xhtml+xml" />
+    <item href="Fonts/icon-works-webfont.ttf" id="icon-works-webfont.ttf" media-type="application/x-font-ttf" />
+    <item href="Styles/redacted.css" id="redacted.css" media-type="text/css" />
+    <item href="Misc/jquery-2.1.4.js" id="jquery-2.1.4.js" media-type="application/javascript" />
+    <item href="Images/2x3.jpg" id="x2x3.jpg" media-type="image/jpeg" />
+    <item href="Images/3x2.jpg" id="x3x2.jpg" media-type="image/jpeg" />
+    <item href="Images/3x4.jpg" id="x3x4.jpg" media-type="image/jpeg" />
+    <item href="Images/4x3.jpg" id="x4x3.jpg" media-type="image/jpeg" />
+    <item href="Images/9x16.jpg" id="x9x16.jpg" media-type="image/jpeg" />
+    <item href="Images/10x16.jpg" id="x10x16.jpg" media-type="image/jpeg" />
+    <item href="Images/16x9.jpg" id="x16x9.jpg" media-type="image/jpeg" />
+    <item href="Images/16x10.jpg" id="x16x10.jpg" media-type="image/jpeg" />
+    <item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
+    <item href="Images/1x1.jpg" id="x1x1.jpg" media-type="image/jpeg" />
+    <item href="Styles/custom.css" id="custom.css" media-type="text/css" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml" />
+    <itemref idref="nav.xhtml" />
+    <itemref idref="icon-ref.xhtml" />
+    <itemref idref="Example-01.xhtml" />
+    <itemref idref="Example-02.xhtml" />
+    <itemref idref="Example-03.xhtml" />
+    <itemref idref="Example-04.xhtml" />
+  </spine>
+  <guide>
+    <reference href="Text/cover.xhtml" title="Couverture" type="cover" />
+    <reference href="Text/nav.xhtml" title="Texte" type="text" />
+  </guide>
+</package>
