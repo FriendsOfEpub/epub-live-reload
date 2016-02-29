@@ -1,0 +1,30 @@
+{
+  "name": "epub-live-reload",
+  "version": "0.0.1",
+  "description": "Add live reload to your epub files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FriendsOfEpub/epub-live-reload.git"
+  },
+  "keywords": [
+    "ebooks",
+    "epub",
+    "epub3",
+    "live-reload"
+  ],
+  "author": "Quentin Valmori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FriendsOfEpub/epub-live-reload/issues"
+  },
+  "homepage": "https://github.com/FriendsOfEpub/epub-live-reload#readme",
+  "dependencies": {
+    "exec": "^0.2.1",
+    "gulp": "^3.9.1",
+    "socket.io": "^1.4.5"
+  }
+}
